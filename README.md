@@ -4,7 +4,7 @@
 
 ---
 
-```markdown
+
 # BankKYC-RAG
 
 **Advanced Agentic + GraphRAG System for KYC & AML Compliance in Banking**
@@ -125,7 +125,7 @@ Since real bank data is confidential, generate **8–10 realistic synthetic poli
 
 ### High-Level Architecture
 
-```
+
 User Query → API Gateway → Query Preprocessing → Agentic Router
                     ↓
           Hybrid Retrieval (Vector + Graph + BM25)
@@ -137,7 +137,7 @@ User Query → API Gateway → Query Preprocessing → Agentic Router
           Guardrails + Hallucination Check + Citation Validation
                     ↓
                Final Response + Audit Log
-```
+
 
 ### Detailed Step-by-Step RAG Flow
 
@@ -211,7 +211,7 @@ See `docs/INSTALL.md` and `docs/INGESTION.md` for detailed instructions.
 
 **Status**: MVP Ready | Production Architecture Complete
 
-```
+
 
 ---
 
